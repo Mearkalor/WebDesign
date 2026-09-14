@@ -1,0 +1,1 @@
+Im feeling ok about the skills ive practices so far. Im not super good at coding beaucse Im not a data-brained person, but I feel like the design aspect of the module was something I was capable of. Hopefully I can get better as the semester progresses. I think that I just need to practise understanding more of CSS without so much reliance on google.
