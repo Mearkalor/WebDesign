@@ -1,1 +1,4 @@
-Im feeling ok about the skills ive practices so far. Im not super good at coding beaucse Im not a data-brained person, but I feel like the design aspect of the module was something I was capable of. Hopefully I can get better as the semester progresses. I think that I just need to practise understanding more of CSS without so much reliance on google.
+Im thinking of making a flexbox section that can display a large portion of photos across the page in an easy order.
+It would be an image/content gallery.
+Its purpose is to be a way to show the other works I have that dont have information next to them and just need to be visually present. 
+I beleive flexbox would work for this, as it can spread across the page evenly.
