@@ -1,4 +1,3 @@
-Im thinking of making a flexbox section that can display a large portion of photos across the page in an easy order.
-It would be an image/content gallery.
-Its purpose is to be a way to show the other works I have that dont have information next to them and just need to be visually present. 
-I beleive flexbox would work for this, as it can spread across the page evenly.
+I do think that I will continue to develop this site as my final site. I think that this could be used for real life applicaitons like a portfolio of sorts if I develop it further and polish it as I learn new skills and tecniques. 
+
+I want to remember that I should do a sitewide upgrade of some of the visual styles and layouts. Make sure to stick to the already applied color scheme.
