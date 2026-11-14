@@ -1,0 +1,117 @@
+
+/* Main page styling */
+body {
+    background-color: #f2f2f2;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Top navigation */
+header {
+    background-color: #f2f2f2;
+    color: #0b3b63;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h3 {
+    margin: 0;
+}
+
+nav a {
+    color: #0b3b63;
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+/* Home page banner */
+.hero {
+    background-image: url("images/FlagPhoto.avif");
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 150px;
+    margin: 0;
+}
+
+.hero p {
+    max-width: 400px;
+    margin-top: 0;
+    font-size: 18px;
+}
+
+
+/* Other page headings */
+.page-title {
+    background-color: #0b3b63;
+    padding: 10px 30px;
+}
+
+.page-title h1 {
+    font-size: 40px;
+    margin: 5px 0;
+}
+
+/* Main content */
+main {
+    padding: 30px;
+    min-height: 430px;
+}
+
+/* Information cards */
+.card {
+    background-color: #0b3b63;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 65%;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+.card img {
+    width: 115px;
+    height: 140px;
+    object-fit: cover;
+}
+
+.card h2 {
+    font-size: 20px;
+}
+
+.card p {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+/* Footer */
+
+footer {
+    background-color: #0b3b63;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer h2 {
+    margin: 5px;
+    font-size: 22px;
+}
+
+footer p {
+    margin: 5px;
+    font-size: 14px;
+}
+
