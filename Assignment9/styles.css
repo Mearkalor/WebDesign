@@ -1,5 +1,5 @@
 
-/* Main page styling */
+
 body {
     background-color: #f2f2f2;
     color: #ffffff;
@@ -7,7 +7,7 @@ body {
     margin: 0;
 }
 
-/* Top navigation */
+/* nav */
 header {
     background-color: #f2f2f2;
     color: #0b3b63;
@@ -22,13 +22,16 @@ header h3 {
 }
 
 nav a {
-    color: #0b3b63;
+    color: white;
+    background-color: #0b3b63;
     text-decoration: none;
-    margin-left: 25px;
+    margin-left: 15px;
+    padding: 10px 18px;
     font-weight: bold;
+    border-radius: 4px;
 }
 
-/* Home page banner */
+/* banner */
 .hero {
     background-image: url("images/FlagPhoto.avif");
     background-size: cover;
@@ -41,7 +44,9 @@ nav a {
 }
 
 .hero h1 {
-    font-size: 150px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 900;
+    font-size: 170px;
     margin: 0;
 }
 
@@ -50,7 +55,6 @@ nav a {
     margin-top: 0;
     font-size: 18px;
 }
-
 
 /* Other page headings */
 .page-title {
@@ -63,13 +67,13 @@ nav a {
     margin: 5px 0;
 }
 
-/* Main content */
+/* Main */
 main {
     padding: 30px;
     min-height: 430px;
 }
 
-/* Information cards */
+/* Info cards */
 .card {
     background-color: #0b3b63;
     display: flex;
@@ -78,16 +82,19 @@ main {
     width: 65%;
     padding: 20px;
     margin-bottom: 25px;
+    margin-top: 25px;
 }
 
 .card img {
-    width: 115px;
+    width: 180px;
     height: 140px;
     object-fit: cover;
 }
 
 .card h2 {
-    font-size: 20px;
+    font-size: 22px;
+    font-family: "Arial Black", Arial, sans-serif;
+    font-weight: bold;
 }
 
 .card p {
@@ -95,14 +102,31 @@ main {
     line-height: 1.4;
 }
 
-/* Footer */
+.card a {
+    display: inline-block;
+    background-color: white;
+    color: #0b3b63;
+    text-decoration: none;
+    padding: 8px 12px;
+    margin: 5px 0;
+    font-weight: bold;
+    border-radius: 4px;
+}
 
+.card a:hover {
+    background-color: #d9d9d9;
+}
+
+/* Footer */
 footer {
     background-color: #0b3b63;
     color: white;
     text-align: center;
     padding: 20px;
     margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 footer h2 {
@@ -115,3 +139,53 @@ footer p {
     font-size: 14px;
 }
 
+/* Small cards */
+@media screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav a {
+        margin: 0 8px;
+    }
+
+    .hero h1 {
+        font-size: 80px;
+    }
+
+    .card {
+        width: auto;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .card img {
+        max-width: 100%;
+    }
+}
+
+
+/* Contact section */
+.contact-section {
+    background-color: #0b3b63;
+    padding: 20px;
+    margin-top: 30px;
+    width: 65%;
+}
+
+.contact-section input,
+.contact-section textarea {
+    width: 95%;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.contact-section button {
+    background-color: #f2f2f2;
+    color: #0b3b63;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
