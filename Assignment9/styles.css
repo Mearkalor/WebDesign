@@ -1,7 +1,11 @@
 
 
 body {
-    background-color: #f2f2f2;
+    background-image: url("images/Background.JPG");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     color: #ffffff;
     font-family: Arial, sans-serif;
     margin: 0;
@@ -9,8 +13,8 @@ body {
 
 /* nav */
 header {
-    background-color: #f2f2f2;
-    color: #0b3b63;
+    background-color: #cfba9d;
+    color: #14212c;
     padding: 15px 30px;
     display: flex;
     justify-content: space-between;
@@ -23,7 +27,7 @@ header h3 {
 
 nav a {
     color: white;
-    background-color: #0b3b63;
+    background-color: #18364e;
     text-decoration: none;
     margin-left: 15px;
     padding: 10px 18px;
@@ -33,7 +37,7 @@ nav a {
 
 /* banner */
 .hero {
-    background-image: url("images/FlagPhoto.avif");
+    background-image: url("images/Capitol.jpg");
     background-size: cover;
     background-position: center;
     padding: 30px;
@@ -58,7 +62,7 @@ nav a {
 
 /* Other page headings */
 .page-title {
-    background-color: #0b3b63;
+    background-color: #18364e;
     padding: 10px 30px;
 }
 
@@ -75,7 +79,7 @@ main {
 
 /* Info cards */
 .card {
-    background-color: #0b3b63;
+    background-color: #18364e;
     display: flex;
     align-items: center;
     gap: 20px;
@@ -83,6 +87,8 @@ main {
     padding: 20px;
     margin-bottom: 25px;
     margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .card img {
@@ -119,7 +125,7 @@ main {
 
 /* Footer */
 footer {
-    background-color: #0b3b63;
+    background-color: #18364e;
     color: white;
     text-align: center;
     padding: 20px;
@@ -168,13 +174,14 @@ footer p {
 
 /* Contact section */
 .contact-section {
-    background-color: #0b3b63;
+    background-color: #18364e;
     padding: 20px;
     margin-top: 30px;
     width: 65%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.contact-section input,
 .contact-section textarea {
     width: 95%;
     padding: 10px;
@@ -189,3 +196,4 @@ footer p {
     cursor: pointer;
     font-weight: bold;
 }
+
